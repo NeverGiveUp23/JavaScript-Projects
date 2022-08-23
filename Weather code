@@ -1,0 +1,10 @@
+//variable will not change//
+const kelvin = 60;
+//subtracting to a celcius degree//
+const celcius = kelvin - 32;
+
+//converting to fahrenheit//
+let fahrenheit = celcius * (9/5) + 32;
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees fahrenheit`)
