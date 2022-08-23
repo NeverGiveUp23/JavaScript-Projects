@@ -1,0 +1,19 @@
+//my age//
+const myAge = 29;
+
+//variable will change//
+let earlyYears = 2; 
+
+earlyYears = earlyYears * 10.5;
+
+//subtracting and placing in new var//
+let laterYears = myAge - 2;
+
+//multiplying late years to get dog years//
+laterYears *= 4;
+
+//adding ages together for dog year result //
+let myAgeInDogYears = earlyYears + laterYears;
+let myName = 'Felix'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
