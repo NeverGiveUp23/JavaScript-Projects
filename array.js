@@ -69,3 +69,24 @@ console.log(someBowling)
 
 const evenBowling = bowlingScores.every((bowlingScores) => bowlingScores % 2 == 0);
 console.log(evenBowling)
+
+
+// push, pop, shift, unshift
+
+const foods = [
+  {food: 'rasberries', type: 'fruit'},
+  {food: 'orange', type: 'fruit'},
+  {food: 'broccoli', type: 'vegatable'}
+];
+
+const blackBeans = {food: 'black beans', type: 'legume'};
+const chiaSeeds = {food: 'chia seeds', type: 'seed'};
+
+foods.pop()
+console.log(foods)
+foods.push(blackBeans);
+console.log(foods)
+foods.unshift(chiaSeeds)
+console.log(foods)
+foods.shift()
+console.log(foods)
