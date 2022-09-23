@@ -38,3 +38,10 @@ console.log(students)
 
 const overNinety = students.find((students) => students.grade > 90);
 console.log(overNinety)
+
+
+// includes method
+const careers = ['teacher', ' doctor', 'engineer', 'nurse', 'scientist'];
+const nurseIncluded = careers.includes('nurse')
+console.log(nurseIncluded)
+// true
