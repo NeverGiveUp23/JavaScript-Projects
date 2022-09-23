@@ -45,3 +45,27 @@ const careers = ['teacher', ' doctor', 'engineer', 'nurse', 'scientist'];
 const nurseIncluded = careers.includes('nurse')
 console.log(nurseIncluded)
 // true
+
+
+//challenge problems
+
+const careers = ['teacher', ' doctor', 'engineer', 'nurse', 'scientist'];
+const nurseIncluded = careers.includes('nurse')
+console.log(nurseIncluded)
+
+const states = ['California', 'New York', 'New Jersey', 'Alaska'];
+const someStates = states.some((states) =>states.startsWith('New'));
+console.log(someStates)
+
+const everyState = states.every((states) => states.startsWith('New'));
+console.log(everyState)
+
+const bowlingScores = [154, 204, 300, 184, 286]
+const bowlingIncluded = bowlingScores.includes(300);
+console.log(bowlingIncluded);
+
+const someBowling = bowlingScores.some((bowlingScores) => bowlingScores < 150);
+console.log(someBowling)
+
+const evenBowling = bowlingScores.every((bowlingScores) => bowlingScores % 2 == 0);
+console.log(evenBowling)
