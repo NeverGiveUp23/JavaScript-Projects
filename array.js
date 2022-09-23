@@ -22,3 +22,19 @@ score over 65 70
 score over 65 80
 score over 65 90
 score over 65 100
+
+
+const students = [
+  {name: 'John', grade: 75},
+  {name: 'Jane', grade: 93},
+  {name: 'Samantha', grade: 90},
+  {name: 'Micheal', grade: 94},
+];
+students.sort((a,b) => b.grade - a.grade);
+console.log(students);
+
+students.sort((a,b) => a.grade - b.grade);
+console.log(students)
+
+const overNinety = students.find((students) => students.grade > 90);
+console.log(overNinety)
