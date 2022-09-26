@@ -90,3 +90,17 @@ foods.unshift(chiaSeeds)
 console.log(foods)
 foods.shift()
 console.log(foods)
+
+//
+function smallestValue(){
+	var array = [4, 9, -23, 14, -6, 20, 33, -8, 1, -52];
+	var smallest = array[0];
+	//your code here
+	for(var x = 0; x < array.length; x++){
+	    if(array[x]< smallest){
+	        smallest = array[x]
+	    }
+	}
+	return smallest; 
+}
+console.log(smallestValue())
